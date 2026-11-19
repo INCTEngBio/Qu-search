@@ -7,11 +7,10 @@
 ## 🧬 Key Features
 
 * **Canonical Orthogonal Nucleotide Encoding:** Direct mapping of biological nitrogenous bases into discrete, distinguishable single-qubit states:
-  * **Adenine (A):** \\(|0\rangle\\) (Ground computational state / `pass`)
-  * **Thymine (T):** \\(|1\rangle\\) (Bit-flip via Pauli-\\(X\\) gate)
-  * **Cytosine (C):** \\(|+\rangle\\) (Equal superposition via Hadamard \\(H\\) gate)
-  * **Guanine (G):** \\(|-\rangle\\) (Phase superposition via Pauli-\\(X\\) followed by Hadamard \\(H\\) gate)
-
+  * **A:** $|1\rangle$ via Pauli-X gate
+  * **C:** $|+\rangle$ via Hadamard gate
+  * **G:** $|-\rangle$ via Pauli-X followed by Hadamard gate
+  * **T:** $|0\rangle$ ground state
 * **Biological Target Oracle with Exact Uncomputation:**
   * **Pre-computation:** Rotates arbitrary candidate target motifs (e.g., benchmark sequences from *JCVI-Syn3.0*) into the all-ones activation basis \\(|11\dots 1\rangle\\).
   * **Phase Kickback:** Inverts the quantum phase of the marked target state using an \\((n-1)\\)-controlled NOT gate (`MCXGate`) conjugated by Hadamard gates on the target register.
