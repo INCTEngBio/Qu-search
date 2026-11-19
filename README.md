@@ -42,23 +42,4 @@
    ```bash
    git clone [suspicious link removed]
    cd QuSearch
-
-Install required dependencies:pip install qiskit qiskit-aer numpy matplotlib
-Run the script:python QuSearch.py
-📊 Outputs and DiagnosticsUpon execution, QuSearch outputs:Terminal Diagnostics: Displays step-by-step target detection probabilities across all Grover iterations:Análise concluída para o alvo: GCAG
-Iteração 1: Probabilidade = 0.452
-Iteração 2: Probabilidade = 0.945
-...
-Figure 1 (Amplification Curve): Plots the convergence and over-rotation dynamics of the marked target state.Figure 2 (Frequency Distribution): Bar chart detailing shot frequencies across all $2^n$ basis states at MAX_ITER.📄 Citation & AttributionIf you use this codebase or its underlying architecture in your research, please cite:@article{QuSearch2026,
-  title={Quantum-Assisted Genomic Pattern Search and Amplitude Amplification},
-  author={Your Name and Collaborators},
-  journal={Bioinformatics / Quantum Science and Technology},
-  year={2026}
-}
-📜 LicenseThis project is licensed under the MIT License - see the LICENSE file for details.keep_pinSalvar como notakeep_pincopythumb_upthumb_down
-
-
-
-
-
-## 🔬 Circuit Architecture
+hitecture
