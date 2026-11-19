@@ -33,13 +33,5 @@
 * [Qiskit Aer](https://github.com/Qiskit/qiskit-aer) (`qiskit-aer`)
 * [NumPy](https://numpy.org/)
 * [Matplotlib](https://matplotlib.org/)
-
----
-
-## 💻 Installation and Execution
-
-1. **Clone the repository:**
-   ```bash
-   git clone [suspicious link removed]
    cd QuSearch
 hitecture
